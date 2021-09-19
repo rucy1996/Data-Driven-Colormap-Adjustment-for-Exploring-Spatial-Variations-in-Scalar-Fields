@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{e36a6fdb-f8fd-4422-842c-5e1f03d31e3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{8a1ff969-3df7-4a02-b4fe-12bdb4e37419}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cu源文件">
+      <UniqueIdentifier>{3a3013e1-5e6c-40a0-ac16-b933ad5f3824}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cu头文件">
+      <UniqueIdentifier>{5d76183d-b7e8-4441-826d-57b5b074b453}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cuda_common.cuh">
+      <Filter>cu头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cMapOpt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="myColor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="interface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cMap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cMapUtils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cMapOpt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="myColor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="interface.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cMapUtils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cMap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="cuda_common.cu">
+      <Filter>cu源文件</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>

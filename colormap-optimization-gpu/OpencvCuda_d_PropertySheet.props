@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>E:\opencv\cuda_bulid\install\include;E:\opencv\cuda_bulid\install\include\opencv;E:\opencv\cuda_bulid\install\include\opencv2;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\opencv\cuda_bulid\install\x64\vc14\lib;$(LibraryPath)</LibraryPath>
+    <_PropertySheetDisplayName>OpencvCuda_PropertySheet</_PropertySheetDisplayName>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>opencv_world342.lib;opencv_world342d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
