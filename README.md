@@ -1,4 +1,4 @@
-#Data-Driven Colormap Adjustment for Exploring Spatial Variations in Scalar Fields
+**<font size=6 >Data-Driven Colormap Adjustment for Exploring Spatial Variations in Scalar Fields</font>**
 ***
 **<font size=5 >Introduction: This project is mainly based on a two-dimensional scalar field data visualization method based on color table optimization. The main idea is to adjust the color distribution based on the boundary model, so that the hidden boundary information in the data can be highlighted, so as to observe more data features.</font>**
 
